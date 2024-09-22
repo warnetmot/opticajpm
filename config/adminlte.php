@@ -334,6 +334,11 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
+            'text' => 'Productos',
+            'url' => 'products',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
             'text' => 'multilevel',
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [
