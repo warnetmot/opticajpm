@@ -18,7 +18,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->string('image')->nullable();
             $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
-            $table->foreignId('supplier_id')->constrained('suopliers')->onDelete('cascade');
+            $table->foreignId('supplier_id')->constrained('suppliers')->onDelete('cascade');
             $table->integer('quantity');
             $table->timestamps();
         });
